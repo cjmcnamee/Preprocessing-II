@@ -5,12 +5,12 @@
   justify-content: @jc;
 }
 
-.buttonMixIn(@br) {
+.buttonMixIn(@ar, @br) {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
   color: white;
   background-color: teal;
-  padding: 10px 46px;
+  padding: @ar @br;
   border: none;
-  border-radius: @br;
+  border-radius: 16px;
 }
