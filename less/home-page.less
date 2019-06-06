@@ -1,12 +1,27 @@
+@padtop: 20px;
+@padbot: 20px;
+@dashbordbot: 2px dashed gray;
 
 header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: @padtop;
+  padding-bottom: @padbot;
   .NavFlex(space-around);
-  border-bottom: 2px dashed gray;
+  border-bottom: @dashbordbot;
 }
 
 .home {
+  .intro-section {
+
+    h2 {
+      padding-top: @padtop;
+      padding-bottom: @padbot;
+    }
+
+    p {
+      padding-bottom: @padbot;
+      border-bottom: @dashbordbot;
+    }
+  }
 
   .content-section {
     margin: 30px 0;
