@@ -229,6 +229,7 @@ header {
 }
 @media (max-width: 500px) {
   .home .content-section {
+    width: 460px;
     flex-direction: column;
   }
 }
@@ -249,10 +250,16 @@ header {
 @media (max-width: 500px) {
   .home .content-section .img-content {
     width: 100%;
+    padding-left: 0%;
   }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content img {
+    width: 100%;
+  }
 }
 .home .inverse-content {
   padding-bottom: 30px;
