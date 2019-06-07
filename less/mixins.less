@@ -1,1 +1,16 @@
 // Mixins in here
+.NavFlex(@jc) {
+  display: flex;
+  flex-direction: row;
+  justify-content: @jc;
+}
+
+.buttonMixIn(@ar, @br) {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  color: white;
+  background-color: teal;
+  padding: @ar @br;
+  border: none;
+  border-radius: 16px;
+}
